@@ -9,13 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "NCEventLoader.h"
 
+
 @class NCEventDetailViewController;
 
 /**
  UITableViewController implementation for displaying a list of events
  Implements the NSEventLoaderDelegate protocol to receive notifications when the events have been loaded
  */
-@interface NCEventsTableViewController : UITableViewController <NSEventLoaderDelegate>
+@interface NCEventsTableViewController : UITableViewController <NCEventLoaderDelegate>
 {
 }
 

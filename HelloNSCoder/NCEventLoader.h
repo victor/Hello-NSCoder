@@ -7,18 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-/**
- Protocol defining the methods to implement to be able to retrive data
- */
-@protocol NSEventLoaderDelegate <NSObject>
-
-@required
-
-- (void)didFinishUpdatingData:(NSMutableArray *)newData;
-
-@end
-
+#import "NCEventLoaderDelegate.h"
 
 
 /**
@@ -28,7 +17,7 @@
     
 }
 
-@property (nonatomic, assign) id <NSEventLoaderDelegate> delegate;
+@property (nonatomic, assign) id <NCEventLoaderDelegate> delegate;
 
 /**
  Load all events that are found nearby the devices current position

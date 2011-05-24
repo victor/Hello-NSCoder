@@ -70,6 +70,7 @@
 		3C393BE71381D0BE003A95CC /* NCEventsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCEventsTableViewController.m; sourceTree = "<group>"; };
 		3C393BE91381D29A003A95CC /* NCEventLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCEventLoader.h; sourceTree = "<group>"; };
 		3C393BEA1381D29A003A95CC /* NCEventLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCEventLoader.m; sourceTree = "<group>"; };
+		3C63E9EA138C280F00050AAB /* NCEventLoaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCEventLoaderDelegate.h; sourceTree = "<group>"; };
 		3C9E04791383F1BC00165BEB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		3CB8D6C6138AA15600283E3C /* dataEvents.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dataEvents.plist; sourceTree = "<group>"; };
 		3CB8D6C9138AA19C00283E3C /* NCConf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCConf.h; sourceTree = "<group>"; };
@@ -216,6 +217,7 @@
 				3C393BE31381C55A003A95CC /* NCEvent.m */,
 				3C393BE91381D29A003A95CC /* NCEventLoader.h */,
 				3C393BEA1381D29A003A95CC /* NCEventLoader.m */,
+				3C63E9EA138C280F00050AAB /* NCEventLoaderDelegate.h */,
 			);
 			name = DataModel;
 			sourceTree = "<group>";
