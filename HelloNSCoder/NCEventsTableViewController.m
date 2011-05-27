@@ -175,7 +175,6 @@
     
     NCEvent *event = [events objectAtIndex:indexPath.row];
     detailViewController.event = event;
-    [event release];
     
     [self.navigationController pushViewController:detailViewController animated:YES];
 }
