@@ -8,12 +8,19 @@
 
 #import <Foundation/Foundation.h>
 #import "NCEventLoaderDelegate.h"
+#import "NCEvent.h"
 
 
 /**
  Class for loading events
  */
-@interface NCEventLoader : NSObject {
+@interface NCEventLoader : NSObject <NSXMLParserDelegate>{
+    
+    NSMutableData   *webData;       // Datat to hold web service response
+    NSXMLParser     *xmlParser;     // XMLParser to parse web service response
+    NCEvent         *currentElement;// Element being parsed on each iteration
+    NSString        *cePropName;    // Name of the property being parsed on currentElement
+    NSMutableArray  *eventList;     // List of parsed events from web service;
     
 }
 
